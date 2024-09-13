@@ -1,0 +1,4 @@
+[console_scripts]
+publisher = p2.publisher:main
+subscriber = p2.subscriber:main
+

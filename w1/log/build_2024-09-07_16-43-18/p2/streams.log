@@ -1,0 +1,22 @@
+[0.458s] Invoking command in '/home/gopi/w1/src/p2': PYTHONPATH=/home/gopi/w1/build/p2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gopi/w1/install/p2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p2 build --build-base /home/gopi/w1/build/p2/build install --record /home/gopi/w1/build/p2/install.log --single-version-externally-managed install_data
+[0.631s] running egg_info
+[0.631s] writing ../../build/p2/p2.egg-info/PKG-INFO
+[0.632s] writing dependency_links to ../../build/p2/p2.egg-info/dependency_links.txt
+[0.632s] writing entry points to ../../build/p2/p2.egg-info/entry_points.txt
+[0.632s] writing requirements to ../../build/p2/p2.egg-info/requires.txt
+[0.632s] writing top-level names to ../../build/p2/p2.egg-info/top_level.txt
+[0.633s] reading manifest file '../../build/p2/p2.egg-info/SOURCES.txt'
+[0.634s] writing manifest file '../../build/p2/p2.egg-info/SOURCES.txt'
+[0.634s] running build
+[0.634s] running build_py
+[0.634s] running install
+[0.635s] running install_lib
+[0.635s] running install_data
+[0.636s] running install_egg_info
+[0.637s] removing '/home/gopi/w1/install/p2/lib/python3.10/site-packages/p2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.637s] Copying ../../build/p2/p2.egg-info to /home/gopi/w1/install/p2/lib/python3.10/site-packages/p2-0.0.0-py3.10.egg-info
+[0.637s] running install_scripts
+[0.653s] Installing publisher script to /home/gopi/w1/install/p2/lib/p2
+[0.654s] Installing subscriber script to /home/gopi/w1/install/p2/lib/p2
+[0.654s] writing list of installed files to '/home/gopi/w1/build/p2/install.log'
+[0.673s] Invoked command in '/home/gopi/w1/src/p2' returned '0': PYTHONPATH=/home/gopi/w1/build/p2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/gopi/w1/install/p2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/p2 build --build-base /home/gopi/w1/build/p2/build install --record /home/gopi/w1/build/p2/install.log --single-version-externally-managed install_data

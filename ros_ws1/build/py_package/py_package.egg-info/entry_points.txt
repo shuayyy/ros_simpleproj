@@ -1,4 +1,0 @@
-[console_scripts]
-publisher = py_package.publisher:main
-subscriber = py_package.subscriber:main
-
