@@ -5,9 +5,12 @@ from std_msgs.msg import String
 class SubscriberNode(Node):
     def __init__(self):
         super().__init__('subscriber_node')
+        self.declare_parameter('topic',value = 'talker_topic')
+        topic_name= self.get_parameter('topic').get_parameter_value().string_value
+
         self.subscription = self.create_subscription(
             String,
-            'topic',
+            topic_name,
             self.listener_callback,
             10)
         self.subscription
