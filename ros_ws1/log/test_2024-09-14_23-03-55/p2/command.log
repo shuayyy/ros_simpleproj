@@ -1,0 +1,2 @@
+Invoking command in '/home/gopi/ros_simpleproj/ros_ws1/src/p2': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v
+Invoked command in '/home/gopi/ros_simpleproj/ros_ws1/src/p2' returned '0': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<robot name="simple_robot">
+
+  <!-- Base Link (Cylinder) -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.3" length="0.1"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      
+      <material name="blue">
+        <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Joint 1 (Revolute joint between base_link and first_link) -->
+  <joint name="joint_1" type="revolute">
+    <parent link="base_link"/>
+    <child link="first_link"/>
+    <origin xyz="0 0 0.05" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="300" lower="1.2" upper="1.2" velocity="2.0"/>
+  </joint>
+
+
+  <!-- First Link (Cylinder) -->
+  <link name="first_link">
+    <visual>
+      <origin xyz="0 0 0.25" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.08" length="0.5"/>
+      </geometry>
+      <material name="yellow">
+        <color rgba="1 1 0 1"/>
+      </material>
+    </visual>
+  </link>
+  
+    <!-- Joint 2 (Prismatic joint between first_link and second_link) -->
+  <joint name="joint_2" type="prismatic">
+    <parent link="first_link"/>
+    <child link="second_link"/>
+    <origin xyz="0 0 0.5" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit effort="300.0" lower="-2" upper="2" velocity="2"/>
+  </joint>
+
+  <!-- Second Link (Box) -->
+  <link name="second_link">
+    <visual>
+      <origin xyz="0 0 0.05" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.2 0.7 0.1"/>
+      </geometry>
+      <material name="red">
+        <color rgba="0 0 1 1"/>
+      </material>
+    </visual>
+  </link>
+
+<!--C2 origin is defined based on c1,C3 origin is defined based on c2,C4 origin is defined based on c2,C5 origin is defined based on c4-->
+
+
+</robot>
+
