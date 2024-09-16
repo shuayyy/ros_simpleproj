@@ -1,0 +1,25 @@
+[0.008s] Invoking command in '/home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test -- -j4 -l4
+[0.034s] Invoked command in '/home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test -- -j4 -l4
+[0.053s] Invoking command in '/home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test
+[0.058s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/$(PROJECT_NAME)/launch
+[0.058s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/$(PROJECT_NAME)/launch/display.launch.py
+[0.058s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/$(PROJECT_NAME)/urdf
+[0.058s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/$(PROJECT_NAME)/urdf/model.urdf
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/$(PROJECT_NAME)/config
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/ament_index/resource_index/package_run_dependencies/urdf_humble_test
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/ament_index/resource_index/parent_prefix_path/urdf_humble_test
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/environment/ament_prefix_path.sh
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/environment/path.sh
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/environment/path.dsv
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/local_setup.bash
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/local_setup.sh
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/local_setup.zsh
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/local_setup.dsv
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/package.dsv
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/ament_index/resource_index/packages/urdf_humble_test
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/cmake/urdf_humble_testConfig.cmake
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/cmake/urdf_humble_testConfig-version.cmake
+[0.059s] -- Up-to-date: /home/gopi/ros_simpleproj/ws_humble_urdf/install/urdf_humble_test/share/urdf_humble_test/package.xml
+[0.060s] Invoked command in '/home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test

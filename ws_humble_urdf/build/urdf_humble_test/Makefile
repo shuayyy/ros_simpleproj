@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gopi/ws_humble_urdf/src/urdf_humble_test
+CMAKE_SOURCE_DIR = /home/gopi/ros_simpleproj/ws_humble_urdf/src/urdf_humble_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gopi/ws_humble_urdf/build/urdf_humble_test
+CMAKE_BINARY_DIR = /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gopi/ws_humble_urdf/build/urdf_humble_test/CMakeFiles /home/gopi/ws_humble_urdf/build/urdf_humble_test//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test/CMakeFiles /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gopi/ws_humble_urdf/build/urdf_humble_test/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

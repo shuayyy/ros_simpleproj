@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gopi/ws_humble_urdf/src/urdf_humble_test
+CMAKE_SOURCE_DIR = /home/gopi/ros_simpleproj/ws_humble_urdf/src/urdf_humble_test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gopi/ws_humble_urdf/build/urdf_humble_test
+CMAKE_BINARY_DIR = /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test
 
 # Utility rule file for urdf_humble_test_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/urdf_humble_test_uninstall.dir/compiler_depend.make
 include CMakeFiles/urdf_humble_test_uninstall.dir/progress.make
 
 CMakeFiles/urdf_humble_test_uninstall:
-	/usr/bin/cmake -P /home/gopi/ws_humble_urdf/build/urdf_humble_test/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 urdf_humble_test_uninstall: CMakeFiles/urdf_humble_test_uninstall
 urdf_humble_test_uninstall: CMakeFiles/urdf_humble_test_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/urdf_humble_test_uninstall.dir/clean:
 .PHONY : CMakeFiles/urdf_humble_test_uninstall.dir/clean
 
 CMakeFiles/urdf_humble_test_uninstall.dir/depend:
-	cd /home/gopi/ws_humble_urdf/build/urdf_humble_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gopi/ws_humble_urdf/src/urdf_humble_test /home/gopi/ws_humble_urdf/src/urdf_humble_test /home/gopi/ws_humble_urdf/build/urdf_humble_test /home/gopi/ws_humble_urdf/build/urdf_humble_test /home/gopi/ws_humble_urdf/build/urdf_humble_test/CMakeFiles/urdf_humble_test_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gopi/ros_simpleproj/ws_humble_urdf/src/urdf_humble_test /home/gopi/ros_simpleproj/ws_humble_urdf/src/urdf_humble_test /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test /home/gopi/ros_simpleproj/ws_humble_urdf/build/urdf_humble_test/CMakeFiles/urdf_humble_test_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/urdf_humble_test_uninstall.dir/depend
 

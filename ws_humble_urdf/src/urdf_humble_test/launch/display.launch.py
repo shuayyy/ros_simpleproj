@@ -1,5 +1,5 @@
 import launch
-from launch.substitutions import Command, LaunchConfiguration
+from launch.substitutions import LaunchConfiguration
 import launch_ros
 import os
 
@@ -22,33 +22,29 @@ def generate_launch_description():
         arguments=[urdfModelPath]
     )
 
-    joint_state_publisher_node = launch_ros.actions.Node(
-        package='joint_state_publisher',
-        executable='joint_state_publisher'
-    )
-
     joint_state_publisher_gui_node = launch_ros.actions.Node(
-    package='joint_state_publisher',
-    executable='joint_state_publisher_gui',
-    name='joint_state_publisher_gui',
-    arguments=[urdfModelPath],
-    condition=launch.conditions.IfCondition(LaunchConfiguration('gui'))
+        package='joint_state_publisher',
+        executable='joint_state_publisher_gui',
+        name='joint_state_publisher_gui',
+        arguments=[urdfModelPath],
+        condition=launch.conditions.IfCondition(LaunchConfiguration('gui'))
     )
 
     rviz_node = launch_ros.actions.Node(
-    package='rviz2',
-    executable='rviz2',
-    name='rviz2',
-    output='screen',
-    arguments=['-d', rvizConfigPath]   
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+        arguments=['-d', rvizConfigPath]
     )
 
     return launch.LaunchDescription([
-    launch.actions.DeclareLaunchArgument(name='gui', default_value='True',
-                                         description='This is a flag for joint_state_publisher_gui'),
-    
-    robot_state_publisher_node,
-    joint_state_publisher_node,
-    joint_state_publisher_gui_node,
-    rviz_node
+        launch.actions.DeclareLaunchArgument(
+            name='gui',
+            default_value='True',
+            description='Flag to enable joint_state_publisher_gui'
+        ),
+        robot_state_publisher_node,
+        joint_state_publisher_gui_node,
+        rviz_node
     ])
