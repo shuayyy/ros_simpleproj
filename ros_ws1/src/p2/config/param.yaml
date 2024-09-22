@@ -1,0 +1,7 @@
+SubscriberNode:
+ ros_parameters:
+  topic : 'topicparam'
+
+PublisherNode:
+ ros_parameters:
+  topic : 'topicparam'
